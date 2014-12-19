@@ -1,0 +1,15 @@
+#chat {
+  border: 1px solid #fff;
+  border-bottom: 40px;
+}
+
+.new_message {
+  #message_content {
+    float: left;
+    width: 40%;
+  }
+
+  input[submit]{
+    color: red;
+  }
+}

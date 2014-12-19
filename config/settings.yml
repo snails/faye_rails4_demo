@@ -1,0 +1,13 @@
+defaults: &defaults
+  faye:
+    AUTH_TOKEN: 123456
+    server: http://local.dev:9292/faye
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
